@@ -3,15 +3,22 @@
 <head>
 	<link rel="shortcut icon" href="https://raw.githubusercontent.com/kittypunk/images/main/4kp.jpg" type="image/png">
 	<title>Kittypunk official site</title>
+	<meta charset="utf-8">
 </head>
 <body>
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 	body{
-		background: rgb(0, 0, 0);
+		background:url("https://raw.githubusercontent.com/kittypunk/images/main/dark-forest-site.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: rgb(0, 0, 0);
 		color: rgb(255, 255, 255);
 		text-align: center;
 		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
 	}
 	h1{
 		font-size: 52px;
@@ -22,31 +29,74 @@
 	}
 	#links img{
 		filter: grayscale(1);
+		filter: invert(0);
 		/* width: 100px;
 		height: 100px; */
 		transition: 0.2s ease-in-out;
+
 	}
 	#links img:hover{
-		filter: grayscale(0);
+		filter: invert(0.8);
 	}
+	#about{
+		width: 100%;
+		font-size: 30px;
+		height: auto;
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-size: 24px;
+   color: none;
+   text-align: left;
+   margin-left: 20px;
+   display: inline;
+}
+.footer h5{
+	color: white;
+}
 </style>
-<img src="https://raw.githubusercontent.com/kittypunk/images/main/sitekitty.png" width="400px" height="auto"
+
+<img src="https://raw.githubusercontent.com/kittypunk/images/main/sitekitty.png" width="400px" height="auto"</img>
+
 	<!-- links div -->
 
 	<div id="links">
-	<h2>Links : </h2>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png "width="100px" height="100px"</img><br><br>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/YouTube_icon_%282013-2017%29.png/640px-YouTube_icon_%282013-2017%29.png "width="140px" height="100px"</img><br><br>
-	<img src="https://cdn.worldvectorlogo.com/logos/soundcloud-icon-1.svg"width="180px" height="100px </img>
+
+	<h2>ССЫЛКИ : </h2>
+	<img src="https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-white-border-icon-png-large.png"width="130px" height="130px"</img><br><br>
+	<img src="https://images.squarespace-cdn.com/content/v1/59e48096a8b2b0193319906e/1508154632044-DLRT6QIDG5JS0L2JHURF/soundcloud-icon.png?format=1500w"width="150px" height="100px"</img><br><br>
+	<img src="https://lh3.googleusercontent.com/proxy/RL7Kl8DafDUxgwBsYfKUsSDeK7lcFu-I3bOQYII0zu78G0XjhY6ONJm3lfd0Ix17xB-CNGUT3jHwFpq7tvbAF5Jg3F4fcpU"width="150px" height="100px"</img><br><br>
+
 	</div>
+	
+
 	<!-- songs div -->
 
 	<div id="songs">
-	<h2>Songs : </h2>
-	<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1096523131&color=%23140500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cecece;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kittypuuunk" title="kittypunk" target="_blank" style="color: #cacaca; text-decoration: none;"><a href="https://soundcloud.com/kittypuuunk/okean-lzhi" title="киттипанк - океан лжи" target="_blank" style="color: #943535; text-decoration: none;"></div>
-		<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1096523131&color=%23140500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cecece;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kittypuuunk" title="kittypunk" target="_blank" style="color: #cacaca; text-decoration: none;"><a href="https://soundcloud.com/kittypuuunk/okean-lzhi" title="киттипанк - океан лжи" target="_blank" style="color: #943535; text-decoration: none;"></div>
-			<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1096523131&color=%23140500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cecece;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kittypuuunk" title="kittypunk" target="_blank" style="color: #cacaca; text-decoration: none;"><a href="https://soundcloud.com/kittypuuunk/okean-lzhi" title="киттипанк - океан лжи" target="_blank" style="color: #943535; text-decoration: none;"></div>
-				<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1096523131&color=%23140500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cecece;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kittypuuunk" title="kittypunk" target="_blank" style="color: #cacaca; text-decoration: none;"><a href="https://soundcloud.com/kittypuuunk/okean-lzhi" title="киттипанк - океан лжи" target="_blank" style="color: #943535; text-decoration: none;"></div>
+	<h2>ПЕСНИ : </h2>
+	<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1096523131&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+	<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1093789366&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+	<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1093789300&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+	<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1093789192&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+	<iframe width="50%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1073489794&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+
+<!-- <div id="about">
+	<p>Про группу:<br> Была основана в 2020 году Алексеем Степенко <br> Позже к нему присоединилась Станислава Фирсова <br> А так же самый лучший дизайнер да и просто <br> замечательный человек Сережка Анисимов
+	</p>
+</div> -->
+
+<div class="footer">
+	<h5 id="p2">Anisimov Sergii,<br> kittypunk,<br>2021 &copy</h5>
 </div>
 </body>
 </html>
