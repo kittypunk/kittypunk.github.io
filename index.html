@@ -29,14 +29,15 @@
 	}
 	#links img{
 		filter: grayscale(1);
-		filter: invert(0);
+		filter: blur(0px);
 		/* width: 100px;
 		height: 100px; */
 		transition: 0.2s ease-in-out;
 
 	}
 	#links img:hover{
-		filter: invert(0.8);
+		filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+		transition: 0.2s ease-in-out;
 	}
 	#about{
 		width: 100%;
@@ -59,14 +60,34 @@
 .footer h5{
 	color: white;
 }
+#logo{
+  animation-duration: 4s;
+  animation-name: logo-color;
+  animation-iteration-count: infinite;
+  transition: 0.2s ease-in-out;
+  
+}
+@keyframes logo-color{
+	0%{
+		filter: drop-shadow(0 0 0.00rem rgb(255, 255, 255));
+	
+	}
+	50%{
+		filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+		
+	}
+	100%{
+		filter: drop-shadow(0 0 0.00rem rgb(255, 255, 255));
+	}
+}
 </style>
-
+<div id="logo">
 <img src="https://raw.githubusercontent.com/kittypunk/images/main/sitekitty.png" width="400px" height="auto"</img>
+</div>
 
 	<!-- links div -->
 
 	<div id="links">
-
 	<h2>ССЫЛКИ : </h2>
 	<a href="https://www.instagram.com/onlykittypunk/" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-white-border-icon-png-large.png"width="130px" height="130px"</img></a><br><br>
 	<a href="https://bit.ly/2VC79h0" target="_blank"><img src="https://images.squarespace-cdn.com/content/v1/59e48096a8b2b0193319906e/1508154632044-DLRT6QIDG5JS0L2JHURF/soundcloud-icon.png?format=1500w"width="150px" height="100px"</img></a><br><br>
